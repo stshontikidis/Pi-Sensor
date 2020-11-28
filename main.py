@@ -7,8 +7,8 @@ import yaml
 
 SENSOR = Adafruit_DHT.DHT22
 
-def load_config:
-    with open('config.yml') as config:
+def load_config():
+    with open('config.yaml') as config:
         return yaml.load(config, Loader=yaml.Loader)
 
 config = load_config()
