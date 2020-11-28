@@ -1,0 +1,6 @@
+mqtt_user: mqtt_user
+mqtt_password: secret_pw
+mqtt_server: 192.168.1.6
+availability_topic: sensor/living_room/LWT
+state_topic: sensor/living_room/state
+pin: 4
