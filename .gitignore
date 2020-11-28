@@ -1,1 +1,4 @@
 .venv/
+nohup.out
+config.yml
+config.yaml
